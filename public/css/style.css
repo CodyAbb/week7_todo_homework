@@ -1,0 +1,17 @@
+.high {
+  background-color: red;
+}
+
+.low {
+  background-color: green;
+}
+
+ul li{
+  text-decoration: none;
+  margin-top: 15px;
+  list-style: none;
+}
+
+ul {
+  margin-bottom: 20px;
+}

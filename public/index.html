@@ -12,8 +12,8 @@
       <ul>
         <li v-for="todo in todos">
           <span>{{todo.name}}</span>
-          <span v-if="todo.isHighPriority === 'high'">HIGH</span>
-          <span v-if="todo.isHighPriority === 'low'">low</span>
+          <span class="high" v-if="todo.isHighPriority === 'high'">HIGH</span>
+          <span class="low" v-if="todo.isHighPriority === 'low'">low</span>
         </li>
       </ul>
 
